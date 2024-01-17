@@ -1,0 +1,26 @@
+/* Media queries for medium-sized screens */
+@media only screen and (max-width: 768px) {
+    .data {
+        width: 80%;
+        transform: translateX(0%);
+        bottom: 8rem;
+    }
+
+    .drop-down {
+        left: 0;
+    }
+}
+/* Media queries for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 480px) {
+    .data {
+        width: 100%;
+        transform: translateX(0%);
+        bottom: 4rem;
+    }
+
+    .drop-down {
+        left: 0;
+        padding: 1rem;
+        gap: 12px;
+    }
+}
