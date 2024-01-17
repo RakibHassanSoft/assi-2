@@ -623,10 +623,12 @@ li {
 
 .left-recoment p {
     color: #5A5A5D;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    margin-bottom: 10px;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 10px;
 
 }
 
@@ -634,7 +636,8 @@ li {
     color: #131318;
     font-size: 16px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 50px;
+    font-weight: 700;
     line-height: 26px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -642,7 +645,11 @@ li {
 }
 
 .left-recoment ul li {
-    line-height: 36px;
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
 
 .right-recoment {
